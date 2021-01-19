@@ -296,7 +296,7 @@ hr {
 /* Inner 제목 "A.I수학 슈퍼클리닉"*/
 .inner {
   margin: 0.2rem auto 0px auto;
-  width: 60rem;
+  width: 55rem;
   max-width: calc(100% - 3rem);}
 .logo_title{
   font-size: 3rem;
@@ -733,8 +733,8 @@ table.alt tbody tr td {
 
 /* Highlights */
 .highlights {
-  width: 100%;
-  margin: 1rem;
+  width: calc(100% - 2rem);
+  margin: 0.8rem;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -804,7 +804,7 @@ table.alt tbody tr td {
       width: calc(50% + 1rem); }*/
     .highlights > * {
       padding: 1rem;
-      width: calc(40% + 1rem); }/*
+      width: calc(48% + 1rem); }/*
     .highlights > :nth-child(-n + 2) {
       padding-top: 0; }
     .highlights > :nth-last-child(-n + 2) {
@@ -867,7 +867,7 @@ table.alt tbody tr td {
       padding-right: 0; }
     .highlights > :nth-child(1n + 1),
     .highlights > :nth-child(1n) {
-      width: calc(100% - 3rem); }
+      width: calc(100%); }
     .highlights img{
       width: 100%;
     }}
@@ -2158,7 +2158,8 @@ ul.icons {
       color: #555555; }
     #cta a {
       color: #555555;
-      margin-left: 1.5rem;}
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;}
     #cta strong, #cta b {
       color: #555555; }
     #cta h1, #cta h3, #cta h4, #cta h5, #cta h6 {
@@ -2309,6 +2310,18 @@ ul.icons {
     @media screen and (max-width: 980px) {
       #cta {
         background-attachment: scroll; } }
+    @media screen and (max-width: 736px){
+      #cta i{
+        font-size: 1rem;
+        margin-right: 1rem;
+      }
+      #cta h2{
+        font-size: 1.5rem;
+      }
+      #cta h3{
+        font-size: 1rem;
+      }
+    }
 
   /* Footer */
   #footer {
@@ -2501,7 +2514,14 @@ ul.icons {
         #footer .content section {
           width: 100%; }
           #footer .content section:last-child {
-            padding-left: 0; } }
+            padding-left: 0; }
+      #footer h1{
+        font-size: 2rem;
+      }
+      #footer h3{
+        font-size: 1rem;
+      }
+        }
     @media screen and (max-width: 480px) {
       #footer {
         padding: 2rem 0 0.1rem 0 ; } }
