@@ -621,7 +621,7 @@ input[type="radio"]:focus + label:before {
 /* List */
 ol {
   list-style: decimal;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.8rem 0;
   padding-left: 1.25rem; }
   ol li {
     padding-left: 0.25rem;
@@ -855,7 +855,7 @@ table.alt tbody tr td {
       padding: 1rem;
       width: calc(100% + 2rem); }*/
     .highlights > * {
-      padding: 1rem;
+      padding: 0.7rem;
       width: calc(100% + 2rem); }
     .highlights > :nth-child(-n + 1) {
       padding-top: 0; }
@@ -2324,7 +2324,7 @@ ul.icons {
     @media screen and (max-width: 736px){
       #cta i{
         font-size: 0.8rem;
-        margin-right: 1rem;
+        margin-right: 0.4rem;
       }
       #cta h2{
         font-size: 1.4rem;
@@ -2333,8 +2333,8 @@ ul.icons {
         font-size: 0.9rem;
       }
       #cta a {
-        font-size: 0.7rem;
-        margin-left: 1.5rem;
+        font-size: 0.5rem;
+        margin-left: 1.5rems;
         margin-bottom: 1rem;}
     }
 
