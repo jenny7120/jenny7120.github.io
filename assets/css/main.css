@@ -2323,14 +2323,14 @@ ul.icons {
         background-attachment: scroll; } }
     @media screen and (max-width: 736px){
       #cta i{
-        font-size: 0.rem;
+        font-size: 0.8rem;
         margin-right: 1rem;
       }
       #cta h2{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
       #cta h3{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
       }
       #cta a {
         font-size: 0.7rem;
@@ -2535,10 +2535,10 @@ ul.icons {
         display: block;
       }
       #footer h3{
-        font-size: 0.7rem;
+        font-size: 1rem;
       }
       #footer a{
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
         }
     @media screen and (max-width: 480px) {
