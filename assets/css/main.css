@@ -146,11 +146,11 @@ p {
 header.special {
   background-color: #D6F6E9;
   border-radius: 1rem;
-  width: 90%;
+  width: 75%;
   text-align: center;
   margin: 0 auto 2rem auto;
-  padding-top: 1.5rem;
-  padding-bottom: 1rem; }
+  padding-top: 1.3rem;
+  padding-bottom: 0.7rem; }
   header.special i{
     display: inline-block;
     font-size: 3rem;
@@ -306,7 +306,13 @@ hr {
 }
   @media screen and (max-width: 480px) {
     .inner {
-      max-width: calc(100% - 3rem); } }
+      max-width: calc(100% - 3rem); }
+    .logo_title{
+      font-size: 2rem;
+      font-weight: 500;
+      text-shadow: 1px 2px 3px gray;
+      display: block;
+    } }
 
 /* Button */
 input[type="submit"],
@@ -775,6 +781,9 @@ table.alt tbody tr td {
       font-size: 5rem; }
   .highlights > div > :last-child {
     margin-bottom: 0; }
+  .highlights img{
+    width: 100%;
+  }
   @media screen and (max-width: 980px) {
     .highlights > * {
       width: 50%; }
@@ -809,6 +818,9 @@ table.alt tbody tr td {
       width: calc(50% + 0rem); }*/
     .highlights .content {
       padding: 2rem; } }
+    .highlights img{
+      width: 100%;
+    }
   @media screen and (max-width: 736px) {
     .highlights > * {
       width: 100%; }
@@ -855,7 +867,10 @@ table.alt tbody tr td {
       padding-right: 0; }
     .highlights > :nth-child(1n + 1),
     .highlights > :nth-child(1n) {
-      width: calc(100% + 1rem); } }
+      width: calc(100% + 1rem); }
+    .highlights img{
+      width: 80%;
+    }}
 
 .highlights .content {
   background: #FDE8E5; /*메인 배경색*/
