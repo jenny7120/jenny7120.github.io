@@ -109,10 +109,10 @@ html {
       font-size: 11pt; } }
   @media screen and (max-width: 980px) {
     html {
-      font-size: 12pt; } }
+      font-size: 10pt; } }
   @media screen and (max-width: 480px) {
     html {
-      font-size: 11pt; } }
+      font-size: 8pt; } }
 /*본문 디자인 */
 body {
   background-color: #ffffff;
@@ -299,9 +299,10 @@ hr {
   width: 60rem;
   max-width: calc(100% - 3rem);}
 .logo_title{
-  font-size: 45px;
+  font-size: 3rem;
   font-weight: 500;
   text-shadow: 1px 2px 3px gray;
+  display: block;
 }
   @media screen and (max-width: 480px) {
     .inner {
