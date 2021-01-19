@@ -867,9 +867,9 @@ table.alt tbody tr td {
       padding-right: 0; }
     .highlights > :nth-child(1n + 1),
     .highlights > :nth-child(1n) {
-      width: calc(100% + 1rem); }
+      width: calc(100% - 3rem); }
     .highlights img{
-      width: 80%;
+      width: 100%;
     }}
 
 .highlights .content {
