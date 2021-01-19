@@ -869,8 +869,19 @@ table.alt tbody tr td {
     .highlights > :nth-child(1n) {
       width: calc(100%); }
     .highlights img{
-      width: 100%;
-    }}
+      width: 100%;}
+    .highlights i{
+      font-size: 0.5rem;
+    }
+    .highlights h2{
+      font-size: 1.2rem;
+    }
+    .highlights h3{
+      font-size: 0.6rem;
+    }
+    .highlights a {
+      font-size: 1rem;}
+    }
 
 .highlights .content {
   background: #FDE8E5; /*메인 배경색*/
@@ -2312,7 +2323,7 @@ ul.icons {
         background-attachment: scroll; } }
     @media screen and (max-width: 736px){
       #cta i{
-        font-size: 1rem;
+        font-size: 0.rem;
         margin-right: 1rem;
       }
       #cta h2{
