@@ -2323,11 +2323,7 @@ ul.icons {
         background-attachment: scroll; } }
     @media screen and (max-width: 736px){
       #cta i{
-<<<<<<< HEAD
-        font-size: 0.6rem;
-=======
         font-size: 0.8rem;
->>>>>>> 9e6aa2fce5c440917b4e4f11a61ed68dea403e50
         margin-right: 0.4rem;
       }
       #cta h2{
