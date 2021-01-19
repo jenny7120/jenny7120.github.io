@@ -621,7 +621,7 @@ input[type="radio"]:focus + label:before {
 /* List */
 ol {
   list-style: decimal;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.8rem 0;
   padding-left: 1.25rem; }
   ol li {
     padding-left: 0.25rem;
@@ -855,7 +855,7 @@ table.alt tbody tr td {
       padding: 1rem;
       width: calc(100% + 2rem); }*/
     .highlights > * {
-      padding: 1rem;
+      padding: 0.7rem;
       width: calc(100% + 2rem); }
     .highlights > :nth-child(-n + 1) {
       padding-top: 0; }
@@ -869,8 +869,19 @@ table.alt tbody tr td {
     .highlights > :nth-child(1n) {
       width: calc(100%); }
     .highlights img{
-      width: 100%;
-    }}
+      width: 100%;}
+    .highlights i{
+      font-size: 0.5rem;
+    }
+    .highlights h2{
+      font-size: 1.2rem;
+    }
+    .highlights h3{
+      font-size: 0.6rem;
+    }
+    .highlights a {
+      font-size: 1rem;}
+    }
 
 .highlights .content {
   background: #FDE8E5; /*메인 배경색*/
@@ -2312,18 +2323,18 @@ ul.icons {
         background-attachment: scroll; } }
     @media screen and (max-width: 736px){
       #cta i{
-        font-size: 1rem;
-        margin-right: 1rem;
+        font-size: 0.6rem;
+        margin-right: 0.4rem;
       }
       #cta h2{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
       #cta h3{
-        font-size: 0.7rem;
+        font-size: 0.9rem;
       }
       #cta a {
-        font-size: 0.7rem;
-        margin-left: 1.5rem;
+        font-size: 0.5rem;
+        margin-left: 1.5rems;
         margin-bottom: 1rem;}
     }
 
@@ -2524,10 +2535,10 @@ ul.icons {
         display: block;
       }
       #footer h3{
-        font-size: 0.7rem;
+        font-size: 1rem;
       }
       #footer a{
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
         }
     @media screen and (max-width: 480px) {
