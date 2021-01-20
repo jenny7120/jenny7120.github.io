@@ -2181,6 +2181,7 @@ ul.icons {
     #cta h2{
       font-size: 2rem;
       display: inline-block;
+      font-weight: 500;
     }
     #cta blockquote {
       border-left-color: rgba(255, 255, 255, 0.25); }
@@ -2189,11 +2190,12 @@ ul.icons {
       border-color: rgba(255, 255, 255, 0.25); }
     #cta hr {
       border-bottom-color: rgba(255, 255, 255, 0.25); }
-    #cta h2{
-      font-weight: 500;
-    }
     #cta i{
       font-size: 1.7rem;
+      margin-right: 1rem;
+    }
+    #cta ul li{
+      font-size: 1.3rem;
       margin-right: 1rem;
     }
     #cta input[type="submit"],
