@@ -2344,9 +2344,10 @@ ul.icons {
         margin-left: 1.5rems;
         margin-bottom: 1rem;
     }
-    #cta ul li{
-      font-size: 1rem;
-      margin-right: 1rem;}
+    #cta ul {
+      list-style: none;}
+    #cta ul li a{
+      font-size: 1.2rem;}
     }
 
   /* Footer */
