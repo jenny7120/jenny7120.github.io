@@ -62,7 +62,9 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  word-break: keep-all; }
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -85,7 +87,7 @@ table {
   border-spacing: 0; }
 
 body {
-  -webkit-text-size-adjust: none; }
+  -webkit-text-size-adjust: none;}
 
 mark {
   background-color: transparent;
@@ -296,7 +298,7 @@ hr {
 /* Inner 제목 "A.I수학 슈퍼클리닉"*/
 .inner {
   margin: 0.2rem auto 0px auto;
-  width: 55rem;
+  width: 70rem;
   max-width: calc(100% - 3rem);}
 .logo_title{
   font-size: 3rem;
@@ -760,7 +762,7 @@ table.alt tbody tr td {
     width: 40%; }
   .highlights > * {
     padding: 1rem;
-    width: calc(45% + 1.5rem);}/*
+    width: calc(47% + 1.5rem);}/*
   .highlights > :nth-child(-n + 3) {
     padding-top: 0; }
   .highlights > :nth-last-child(-n + 3) {
@@ -2333,7 +2335,7 @@ ul.icons {
         font-size: 0.9rem;
       }
       #cta a {
-        font-size: 0.5rem;
+        font-size: 0.9rem;
         margin-left: 1.5rems;
         margin-bottom: 1rem;}
     }
