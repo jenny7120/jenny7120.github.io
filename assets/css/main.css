@@ -820,8 +820,11 @@ table.alt tbody tr td {
       width: calc(50% + 0rem); }*/
     .highlights .content {
       padding: 2rem; } }
+      .highlights .logo{
+        width: 100%;
+      }
     .highlights img{
-      width: 100%;
+      width: 70%;
     }
   @media screen and (max-width: 736px) {
     .highlights > * {
@@ -2539,7 +2542,7 @@ ul.icons {
         display: block;
       }
       #footer h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
       #footer a{
         font-size: 1.5rem;
