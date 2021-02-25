@@ -115,6 +115,12 @@ html {
   @media screen and (max-width: 480px) {
     html {
       font-size: 11pt; } }
+    
+/* highlight*/
+mark {
+  background-color: yellow;
+  color: black;
+}
 /*본문 디자인 */
 body {
   background-color: #ffffff;
@@ -171,7 +177,7 @@ header.special {
 header.teacher {
 background-color: #D7EEFD;
 border-radius: 1rem;
-width: 90%;
+width: 75%;
 text-align: center;
 margin: 0 auto 2rem auto;
 padding-top: 1.5rem;
