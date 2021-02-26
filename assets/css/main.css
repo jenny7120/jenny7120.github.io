@@ -157,8 +157,8 @@ header.special {
   width: 75%;
   text-align: center;
   margin: 0 auto 2rem auto;
-  padding-top: 1.3rem;
-  padding-bottom: 0.7rem; }
+  /* padding-top: 0.5rem;*/
+  padding-bottom: 0.1rem; } 
   header.special i{
     display: inline-block;
     font-size: 3rem;
@@ -176,12 +176,12 @@ header.special {
 
 header.teacher {
 background-color: #D7EEFD;
-border-radius: 1rem;
+border-radius: 0.7rem;
 width: 75%;
 text-align: center;
 margin: 0 auto 2rem auto;
-padding-top: 1.5rem;
-padding-bottom: 1rem; }
+/* padding-top: 0.5rem;
+padding-bottom: 0.5rem;*/ } 
 header.teacher i{
   display: inline-block;
   font-size: 3rem;
